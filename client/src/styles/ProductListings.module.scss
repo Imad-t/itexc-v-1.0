@@ -1,0 +1,30 @@
+.Category-section{
+    display: flex;
+    justify-content: center;
+  }
+.Product-section{
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+
+}
+.Product-view{
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 40px 40px 40px;
+    grid-row: 2/2;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.title{
+    left: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    grid-row: 1/2;
+}
+.title:hover{
+    text-decoration: underline;
+}

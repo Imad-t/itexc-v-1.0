@@ -1,0 +1,104 @@
+.user-page{
+    display: grid;
+    grid-template-rows: 550px 1fr;
+    justify-content: center;
+}
+.avatar{
+    opacity: 1;
+    .upload-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+      }
+      
+      .upload-input {
+        display: none;
+      }
+    h2{
+        border: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        position: relative;
+        bottom: 70px;
+        opacity: 0;
+        transition: 0.8s ease-out;
+    }
+    img{
+        transition: 0.8s ease-out;
+    }
+
+&:hover{
+
+    h2{
+        opacity: 1;
+    }
+    img{
+        transition: 0.2s ease-in;
+        opacity: 40%;
+    }
+
+      
+}
+}
+.user-info{
+    justify-self: center;
+    margin-top: 30px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.socials{
+    padding: 5px;
+    color: rgb(181, 181, 181);
+    display: flex;
+    justify-content: center;
+    
+    div{
+        margin-left: 5px;
+        margin-right: 5px;}
+    div:hover{
+        color: rgb(170, 170, 170);
+    }
+
+}
+.email{
+    position: relative;
+    margin-top: 10px;
+}
+.address{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+}
+.profile-overview{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    div{
+
+        padding: 10px;
+        text-align: center;
+    }
+    .details{
+        color: rgb(181, 181, 181);
+        font-size: 15px;
+
+    }
+    .more-details{
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+.user-content{
+    display: grid;
+}
+.user-tabs{
+    min-width: 1200px;
+}

@@ -1,0 +1,19 @@
+.admin-container{
+    display: grid;
+    padding:30px;
+    grid-template-columns: 20% 80%;
+    background-color: #F2F7FF;
+}
+.contents{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.204);
+    background-color: white;
+    padding: 20px;
+}
+.box{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.204);
+    padding :10px;
+    border-radius: 10px;
+}

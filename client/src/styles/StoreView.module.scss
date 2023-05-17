@@ -1,0 +1,40 @@
+Heading{
+    margin :0;
+    padding: 0;
+   }
+   .store-container{
+       display: grid;
+       margin: 0;
+       width: 250px;
+       height: 300px;
+       background-color: red;
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin: 10px;
+       box-shadow: -10px 10px 0px #1218e2;
+       grid-template-rows: 230px 70px;
+       img{
+           width: 250px;
+           height: 300px;
+           object-fit: cover;
+       }
+       h3{ 
+           background-color: #6a6fff;
+           color: white;
+           text-align: center;
+           font-style: italic;
+           font-weight: 600;
+           padding-top: 15px;
+           font-size: 25px;
+       }
+   }
+   .storeBannerContainer{
+   }
+   .StoresBanner{
+
+       padding: 20px;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+   
+   }

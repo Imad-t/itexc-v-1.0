@@ -1,0 +1,128 @@
+.header{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center; 
+    color: #1218E2;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.subheader{
+    padding: 20px 0 30px 0;
+    display: flex;
+    justify-content: center; 
+    color: #1218E2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.formStep {
+    height: 100%;
+    padding: 0px 220px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .signupInputBox{
+        width: 100%;
+        height: 60px;
+        border-bottom: 3px solid #1218E2;
+        background-color: transparent;
+        outline: none;
+
+        &::placeholder{
+            color: #1218E2;
+            font-weight: 500;
+            font-size: 1.2em;
+        };
+    };
+
+    .doubleSignupInputbox {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .storeType{
+        margin-top: 10px;
+        padding-top: 10px;
+        border-bottom: 3px solid #1218E2;
+        outline: none;
+        width: 500px;
+        height: 60px;
+        background-color: transparent;
+        color: #1218E2;
+        font-weight: 500;
+        font-size: 1.2em;
+
+        .types{ margin-right: 50px; };
+
+        .label{
+            font-size: medium;
+            margin: 0px 10px 0px 20px;
+        };
+
+        .checkbox{ height:20px; }
+
+    };
+
+    .storeCategory{
+        position: relative;
+        margin-top: 30px;
+        padding: 0px 20px 0px 20px;
+        width: 500px;
+        height: 50px;
+        border: 3px solid #1218E2;
+        border-radius: 025px;
+        background-color: transparent;
+        outline: none;
+        color: #1218E2;
+        font-weight: 500;
+        font-size: 1.1em;
+
+        
+        
+
+    };
+
+    .addLogo{
+        margin-top: 30px;
+        padding-top: 10px;
+        outline: none;
+        width: 500px;
+        height: 60px;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        input[type="file"]{
+            display: none;
+        };
+
+        label{
+            background-color: #1218E2;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 0 15px 0 15px;
+            
+            .imageIcon{
+                font-size: 2rem;
+                margin-left: 10px;
+            }
+        }
+        
+
+
+    }
+
+}

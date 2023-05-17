@@ -1,0 +1,22 @@
+.products{
+    .overview{
+        margin: 0 auto ;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 12px;
+        .info{
+            
+            h3{
+                font-size: x-large;
+                color: #7F7F7F;
+            }
+            p{
+                text-align: center;
+                font-size: x-large;
+                font-weight: 600;
+            }
+
+        }
+    }
+}

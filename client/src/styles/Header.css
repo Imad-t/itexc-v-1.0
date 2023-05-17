@@ -1,0 +1,53 @@
+
+.hell{
+    display: flex;
+    background: #1218E2;
+}
+.header {
+    width: 100%;
+    position: relative;
+    padding: 10px;    
+  }
+  
+  .wrapper {
+    width: 100%;
+    position: relative;
+   
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+  
+  .header-text {
+    color: white;
+    padding-left: 70px;
+    text-align: left;
+    font-size: 4em;
+    font-weight: 800;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+    .profile{
+      display: flex;
+      margin: 0px 2px 0px 2px;
+    }
+    .profile text{
+      margin: 10px ;
+      color: #1218E2;
+    }
+  
+    .pp{
+      margin-right: 5px;
+     border:2px solid #1218E2;
+     border-radius: 70%;
+     width: 50px;
+     height: 50px;
+    }
